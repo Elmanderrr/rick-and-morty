@@ -44,11 +44,5 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
-!/src/fake-bd.json
-src/app/components/episodes/episodes.component.html
-src/app/components/episodes/episodes.component.scss
-src/app/components/episodes/episodes.component.spec.ts
-src/app/components/episodes/episodes.component.ts
-src/app/components/users/
 
 src/fake-bd.json

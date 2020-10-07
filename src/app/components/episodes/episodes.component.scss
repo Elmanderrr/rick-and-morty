@@ -1,0 +1,12 @@
+.episode-img {
+    width: 100px;
+}
+
+.episodes {
+    display: flex;
+
+    .episode-card {
+        width: 200px;
+        flex-shrink: 0;
+    }
+}
