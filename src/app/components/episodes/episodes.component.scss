@@ -4,9 +4,11 @@
 
 .episodes {
     display: flex;
+    flex-wrap: wrap;
+
 
     .episode-card {
-        width: 200px;
-        flex-shrink: 0;
+        width: 300px;
+        margin: 5px;
     }
 }

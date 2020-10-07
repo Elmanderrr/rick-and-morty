@@ -1,9 +1,21 @@
 <div class="episodes">
     <mat-card class="episode-card" *ngFor="let episode of episodes$ | async">
-        <img mat-card-image class="episode-img" [src]="episodesFacade.posters[episode.seasonNo]" alt="" loading="lazy">
+
+        <mat-card-header>
+            <mat-card-title>{{episode.name}}</mat-card-title>
+            <mat-card-subtitle>
+                <strong>Season:</strong> {{episode.seasonNo}} <br>
+                <strong>Episode:</strong> {{episode.episode}}
+            </mat-card-subtitle>
+        </mat-card-header>
+        <img mat-card-image [src]="episodesFacade.posters[episode.seasonNo]" alt="Photo of a Shiba Inu">
         <mat-card-content>
-            {{episode.name}}
-            {{episode.episode}}
+
         </mat-card-content>
+        <mat-card-actions>
+            <button mat-button>LIKE</button>
+            <button mat-button>SHARE</button>
+        </mat-card-actions>
     </mat-card>
 </div>
+

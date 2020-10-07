@@ -4,6 +4,7 @@ import { EpisodesComponent } from 'src/app/components/episodes/episodes.componen
 import { RouterModule } from '@angular/router';
 import { EpisodesFacade } from 'src/app/components/episodes/episodes.facade';
 import { MatCardModule } from '@angular/material/card';
+import { MatButtonModule } from '@angular/material/button';
 
 
 
@@ -17,7 +18,8 @@ import { MatCardModule } from '@angular/material/card';
         component: EpisodesComponent
       }
     ]),
-    MatCardModule
+    MatCardModule,
+    MatButtonModule
   ],
   providers: [
     EpisodesFacade
