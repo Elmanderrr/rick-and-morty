@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Artem",
+    "surname": "Korolov",
+    "id": 0
+  },
+
+  {
+    "name": "Alina",
+    "surname": "Korolova",
+    "id": 1
+  },
+
+  {
+    "name": "Zinaida",
+    "surname": "Korolov",
+    "id": 2
+  },
+
+  {
+    "name": "Vyacheslav",
+    "surname": "Dryha",
+    "id": 3
+  },
+
+  {
+    "name": "Angelica",
+    "surname": "Victorovna",
+    "id": 4
+  },
+
+  {
+    "name": "Bogdan",
+    "surname": "Vyacheslavovich",
+    "id": 5
+  }
+
+]
